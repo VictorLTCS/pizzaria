@@ -1,0 +1,60 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+    background-color: #FFEACC;
+    display: flex;
+    flex-direction: column;
+}
+
+header{
+    height: 110px;
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10%;
+    padding-inline: 3%;
+}
+
+.logo{
+    scale: 130%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+.hero{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-grow: 1;
+    padding-inline: 5%;
+}
+
+.galeria{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding-block: 20px;
+}
+
+.galeria img{
+    height: 90px;
+}
